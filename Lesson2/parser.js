@@ -1,6 +1,4 @@
 var fs = require ('fs');
-var Table = require('cli-table');
-var logfile = require('minimist')(process.argv.slice(2));
 var async = require('async');
 var colors = require('colors');
 var argv = require('minimist')(process.argv.slice(2));
